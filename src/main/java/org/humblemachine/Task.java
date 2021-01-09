@@ -6,6 +6,7 @@ import org.humblemachine.models.NodeResult;
 import org.humblemachine.models.Request;
 
 import java.util.Observable;
+import java.util.Optional;
 
 public class Task extends Observable {
 
@@ -16,11 +17,15 @@ public class Task extends Observable {
         this.work = work;
     }
 
-    public NodeResult work(Request request) throws Exception {
+    public void work(Request request) throws Exception {
         if(!work.process(request)){
             throw new Exception("Coudn't finish work succesfully");
         }
-        return work.getOutput();
+        notifyObservers(work.getOutput());
+    }
+
+    public Optional<NodeResult> getResult() {
+        return Optional.ofNullable(work.done() ? work.getOutput() : null);
     }
 
 }

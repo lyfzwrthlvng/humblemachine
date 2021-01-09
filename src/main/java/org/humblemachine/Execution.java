@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 public class Execution implements Observer {
 
     private Task myTask;
-    private Map<String, Optional<Object>> triggerArgs = new HashMap<>();
 
+    private Map<String, Optional<Object>> triggerArgs = new HashMap<>();
 
     public Execution(Task task, List<String> triggers) {
         this.myTask = task;
@@ -21,10 +21,9 @@ public class Execution implements Observer {
 
     public void update(Observable o, Object arg) {
         // notification!
-
-        NodeResult result = (NodeResult)arg;
+        NodeResult result = (NodeResult) arg;
         triggerArgs.put(result.getResultName(), Optional.ofNullable(result.getResultValue()));
-        if(triggerArgs.values().stream().allMatch(Optional::isPresent)) {
+        if (triggerArgs.values().stream().allMatch(Optional::isPresent)) {
             Request workRequest = new Request(triggerArgs.entrySet()
                     .stream()
                     .collect(Collectors.toMap(Map.Entry::getKey, e -> e.getValue().get()))
@@ -34,6 +33,14 @@ public class Execution implements Observer {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            updateDone();
         }
+    }
+
+    public Map<String, Optional<Object>> getTriggerArgs() {
+        return triggerArgs;
+    }
+
+    private void updateDone() {
     }
 }

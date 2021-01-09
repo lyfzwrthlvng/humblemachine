@@ -9,4 +9,5 @@ public interface Node {
     public NodeResult getOutput();
     public void setOutput(NodeResult result);
     String getResultNameForNode();
+    public boolean done();
 }
