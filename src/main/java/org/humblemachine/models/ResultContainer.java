@@ -1,13 +1,13 @@
 package org.humblemachine.models;
 
 public class ResultContainer {
-    private NodeResult result;
+    private ReqResult result;
 
     ResultContainer() {
 
     }
 
-    public void setResult(NodeResult result){
+    public void setResult(ReqResult result){
         this.result = result;
     }
 }
