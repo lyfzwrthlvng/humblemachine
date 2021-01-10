@@ -1,4 +1,6 @@
-package org.humblemachine;
+package org.humblemachine.workflow;
+
+import org.humblemachine.workflow.TaskIdentifier;
 
 public class Dependency {
     private TaskIdentifier obserable;

@@ -3,6 +3,7 @@ package org.humblemachine;
 import org.humblemachine.executor.Node;
 import org.humblemachine.models.ReqResult;
 import org.humblemachine.models.ReqResultImpl;
+import org.humblemachine.workflow.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;

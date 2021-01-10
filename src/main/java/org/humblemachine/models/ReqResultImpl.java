@@ -1,6 +1,6 @@
 package org.humblemachine.models;
 
-import org.humblemachine.TaskIdentifier;
+import org.humblemachine.workflow.TaskIdentifier;
 
 import java.util.HashMap;
 import java.util.Map;

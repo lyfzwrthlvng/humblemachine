@@ -1,4 +1,4 @@
-package org.humblemachine;
+package org.humblemachine.workflow;
 
 import org.humblemachine.models.ReqResultImpl;
 

@@ -1,4 +1,4 @@
-package org.humblemachine;
+package org.humblemachine.workflow;
 
 
 public class TaskIdentifier {

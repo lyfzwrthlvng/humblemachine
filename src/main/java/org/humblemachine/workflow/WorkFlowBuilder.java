@@ -1,4 +1,4 @@
-package org.humblemachine;
+package org.humblemachine.workflow;
 
 import java.util.*;
 import java.util.stream.Collectors;

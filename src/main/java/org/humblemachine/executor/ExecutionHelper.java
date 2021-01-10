@@ -1,4 +1,4 @@
-package org.humblemachine;
+package org.humblemachine.executor;
 
 import org.humblemachine.executor.Callback;
 import org.humblemachine.executor.Node;
