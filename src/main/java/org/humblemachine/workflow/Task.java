@@ -14,13 +14,20 @@ public class Task extends Observable implements Observer {
     private TaskIdentifier identifier;
     private ExecutorService executor;
     private ExecutionHelper helper;
-    private Map<TaskIdentifier, Optional<Object>> triggerArgs = new HashMap<>();
+    private Map<TaskIdentifier, Optional<ReqResult>> triggerArgs = new HashMap<>();
+
+    public static Task EMPTY_TASK = new Task("EMPTY#TASK");
 
     public Task(TaskIdentifier identifier, ExecutorService executor, Node node) {
         super();
         this.identifier = identifier;
         this.executor = executor;
         this.helper = new ExecutionHelper(node, new TaskCallback());
+    }
+
+    public Task(String id){
+        super();
+        this.identifier = new TaskIdentifier(id);
     }
 
     public TaskIdentifier getIdentifier() {
@@ -43,7 +50,7 @@ public class Task extends Observable implements Observer {
         if (triggerArgs.values().stream().allMatch(Optional::isPresent)) {
             ReqResultImpl workRequest = new ReqResultImpl(triggerArgs.entrySet()
                     .stream()
-                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)));
+                    .collect(Collectors.toMap(e -> e.getKey().getId(), e -> e.getValue().get().getArgs())));
             helper.setInput(workRequest);
             executor.submit(helper);
         }

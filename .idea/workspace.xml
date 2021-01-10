@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="276f812c-0986-4ab6-afc1-3882ad30bd29" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/Dependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Dependency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/ExecutionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/Machine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/MultiObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/TaskIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/TaskIdentifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/WorkFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/WorkFlowBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ResultContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/executor/ExecutionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/executor/ExecutionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/executor/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/executor/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/models/ReqResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/models/ReqResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/models/ReqResultImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/models/ReqResultImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/WorkFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/WorkFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/WorkFlowBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/humblemachine/workflow/WorkFlowBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Authorize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Authorize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Close.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Close.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$FormatA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$FormatA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$FormatB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$FormatB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Read.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest$Read.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/humblemachine/MachineTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,45 +36,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReqResult.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dependency.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Dependency.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="method#Dependency#0;class#Dependency#0" expanded="true" />
-              </folding>
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutionHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java">
+      <file leaf-file-name="ReqResultImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="181">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#ExecutionHelper#0;class#ExecutionHelper#0" expanded="true" />
-                <element signature="method#run#0;class#ExecutionHelper#0" expanded="true" />
+                <element signature="method#ReqResultImpl#0;class#ReqResultImpl#0" expanded="true" />
+                <element signature="method#ReqResultImpl#1;class#ReqResultImpl#0" expanded="true" />
+                <element signature="method#getInput#0;class#ReqResultImpl#0" expanded="true" />
+                <element signature="method#getValue#1;class#ReqResultImpl#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,14 +64,31 @@
       <file leaf-file-name="WorkFlow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#WorkFlow#0;class#WorkFlow#0" expanded="true" />
                 <element signature="method#start#0;class#WorkFlow#0" expanded="true" />
-                <element signature="method#update#0;class#WorkFlow#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callback.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Callback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -87,27 +96,38 @@
       <file leaf-file-name="WorkFlowBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="311">
+              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#WorkFlowBuilder#0;class#WorkFlowBuilder#0" expanded="true" />
+                <element signature="method#withExecutor#0;class#WorkFlowBuilder#0" expanded="true" />
+                <element signature="method#addWork#0;class#WorkFlowBuilder#0" expanded="true" />
                 <element signature="method#addTask#0;class#WorkFlowBuilder#0" expanded="true" />
                 <element signature="method#addTasks#0;class#WorkFlowBuilder#0" expanded="true" />
                 <element signature="method#addDependency#0;class#WorkFlowBuilder#0" expanded="true" />
+                <element signature="method#withCallback#0;class#WorkFlowBuilder#0" expanded="true" />
                 <element signature="method#build#0;class#WorkFlowBuilder#0" expanded="true" />
                 <element signature="method#validateDependency#0;class#WorkFlowBuilder#0" expanded="true" />
-                <element signature="method#validate#0;class#WorkFlowBuilder#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MachineTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MachineTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="78">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="method#work#0;class#Authorize#0;class#MachineTest#0" expanded="true" />
                 <element signature="method#work#0;class#Read#0;class#MachineTest#0" expanded="true" />
@@ -119,42 +139,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskIdentifier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/TaskIdentifier.java">
+      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="131">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
-                <element signature="method#TaskIdentifier#0;class#TaskIdentifier#0" expanded="true" />
-                <element signature="method#hashCode#0;class#TaskIdentifier#0" expanded="true" />
-                <element signature="method#equals#0;class#TaskIdentifier#0" expanded="true" />
+                <element signature="docComment;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#Observable#0;class#Observable#0" expanded="true" />
+                <element signature="method#Observable#0;class#Observable#0" expanded="true" />
+                <element signature="method#addObserver#0;class#Observable#0" expanded="true" />
+                <element signature="method#deleteObserver#0;class#Observable#0" expanded="true" />
+                <element signature="method#notifyObservers#0;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#notifyObservers#1;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#deleteObservers#0;class#Observable#0" expanded="true" />
+                <element signature="method#deleteObservers#0;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#setChanged#0;class#Observable#0" expanded="true" />
+                <element signature="method#setChanged#0;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#clearChanged#0;class#Observable#0" expanded="true" />
+                <element signature="docComment;method#hasChanged#0;class#Observable#0" expanded="true" />
+                <element signature="method#hasChanged#0;class#Observable#0" expanded="true" />
+                <element signature="method#countObservers#0;class#Observable#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="131">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Task2#2;class#Task2#0" expanded="true" />
+                <element signature="method#Task#1;class#Task#0" expanded="true" />
                 <element signature="method#addDependency#0;class#Task2#0" expanded="true" />
                 <element signature="method#update#0;class#Task2#0" expanded="true" />
                 <element signature="method#equals#0;class#Task2#0" expanded="true" />
                 <element signature="method#hashCode#0;class#Task2#0" expanded="true" />
                 <element signature="method#complete#0;class#TaskCallback#0;class#Task#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Callback.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Callback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -214,14 +239,18 @@
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/WorkFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/WorkFlowBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/models/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Callback.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/ExecutionHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/Task.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/TaskIdentifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java" />
       </list>
     </option>
   </component>
@@ -508,44 +537,44 @@
       <updated>1591376312564</updated>
       <workItem from="1591376315936" duration="255000" />
       <workItem from="1609088699079" duration="234000" />
-      <workItem from="1610040836728" duration="26509000" />
+      <workItem from="1610040836728" duration="31564000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MachineTest - 2021.01.10 at 10h 23m 59s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 13h 48m 29s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 24m 05s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 13h 52m 38s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 24m 10s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 13h 53m 29s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 24m 14s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 13h 53m 42s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 24m 16s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 13h 55m 16s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 24m 17s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 14h 03m 36s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 25m 32s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 14h 04m 22s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 25m 59s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 14h 05m 51s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 26m 17s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 14h 06m 27s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MachineTest - 2021.01.10 at 10h 26m 24s.xml">
+    <history-entry file="MachineTest - 2021.01.10 at 14h 07m 30s.xml">
       <configuration name="MachineTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26998000" />
+    <option name="totallyTimeSpent" value="32053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1388" height="831" extended-state="0" />
@@ -561,7 +590,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39918256" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32833788" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -569,8 +598,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32833788" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32833788" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.256315" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32833788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.256315" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -625,73 +654,53 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Observable.java</url>
-          <line>136</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Observable.java</url>
-          <line>138</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>this</expression-string>
+        <expression-string>result</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>wf</expression-string>
+        <expression-string>triggerArgs.values().stream().allMatch(Optional::isPresent)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.dep.get(dependency.getObserable())</expression-string>
+        <expression-string>((HashMap) triggerArgs).values()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.dep.getOrDefault(dependency.getObserable(), new ArrayList&lt;&gt;()).add(dependency.getObserver());</expression-string>
+        <expression-string>((HashMap) triggerArgs).keySet()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this.dep.getOrDefault(dependency.getObserable(), new ArrayList&lt;&gt;())</expression-string>
+        <expression-string>((HashMap) triggerArgs).keySet</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dep</expression-string>
+        <expression-string>((HashMap) triggerArgs).values</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dep.values().containsAll(taskMap.keySet())</expression-string>
+        <expression-string>triggerArgs</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>taskMap.keySet()</expression-string>
+        <expression-string>callbackOptional.get().</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dep.values()</expression-string>
+        <expression-string>callbackOptional.get()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -721,7 +730,10 @@
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Request#0;class#Request#0" expanded="true" />
+            <element signature="method#ReqResultImpl#0;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#ReqResultImpl#1;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#getInput#0;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#getValue#1;class#ReqResultImpl#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/CollectorTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1012,20 +1017,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="156">
+          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/TaskIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Request#0;class#Request#0" expanded="true" />
+            <element signature="method#TaskIdentifier#0;class#TaskIdentifier#0" expanded="true" />
+            <element signature="method#hashCode#0;class#TaskIdentifier#0" expanded="true" />
+            <element signature="method#equals#0;class#TaskIdentifier#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="method#ExecutionHelper#0;class#ExecutionHelper#0" expanded="true" />
+            <element signature="method#run#0;class#ExecutionHelper#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Dependency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="method#Dependency#0;class#Dependency#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="131">
           <caret line="138" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="docComment;class#Observable#0" expanded="true" />
@@ -1047,123 +1088,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="324" column="11" selection-start-line="324" selection-start-column="11" selection-end-line="324" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Task2#2;class#Task2#0" expanded="true" />
+            <element signature="method#Task#1;class#Task#0" expanded="true" />
+            <element signature="method#addDependency#0;class#Task2#0" expanded="true" />
+            <element signature="method#update#0;class#Task2#0" expanded="true" />
+            <element signature="method#equals#0;class#Task2#0" expanded="true" />
+            <element signature="method#hashCode#0;class#Task2#0" expanded="true" />
+            <element signature="method#complete#0;class#TaskCallback#0;class#Task#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResultImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ReqResultImpl#0;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#ReqResultImpl#1;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#getInput#0;class#ReqResultImpl#0" expanded="true" />
+            <element signature="method#getValue#1;class#ReqResultImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#WorkFlowBuilder#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#withExecutor#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#addWork#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#addTask#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#addTasks#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#addDependency#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#withCallback#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#build#0;class#WorkFlowBuilder#0" expanded="true" />
+            <element signature="method#validateDependency#0;class#WorkFlowBuilder#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#WorkFlow#0;class#WorkFlow#0" expanded="true" />
+            <element signature="method#start#0;class#WorkFlow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/humblemachine/MachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="78">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="method#work#0;class#Authorize#0;class#MachineTest#0" expanded="true" />
             <element signature="method#work#0;class#Read#0;class#MachineTest#0" expanded="true" />
             <element signature="method#work#0;class#FormatA#0;class#MachineTest#0" expanded="true" />
             <element signature="method#work#0;class#FormatB#0;class#MachineTest#0" expanded="true" />
             <element signature="method#work#0;class#Close#0;class#MachineTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/models/ReqResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#WorkFlow#0;class#WorkFlow#0" expanded="true" />
-            <element signature="method#start#0;class#WorkFlow#0" expanded="true" />
-            <element signature="method#update#0;class#WorkFlow#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/WorkFlowBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#WorkFlowBuilder#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#addTask#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#addTasks#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#addDependency#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#build#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#validateDependency#0;class#WorkFlowBuilder#0" expanded="true" />
-            <element signature="method#validate#0;class#WorkFlowBuilder#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/TaskIdentifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="method#TaskIdentifier#0;class#TaskIdentifier#0" expanded="true" />
-            <element signature="method#hashCode#0;class#TaskIdentifier#0" expanded="true" />
-            <element signature="method#equals#0;class#TaskIdentifier#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Dependency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="method#Dependency#0;class#Dependency#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/executor/ExecutionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ExecutionHelper#0;class#ExecutionHelper#0" expanded="true" />
-            <element signature="method#run#0;class#ExecutionHelper#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/humblemachine/workflow/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addDependency#0;class#Task2#0" expanded="true" />
-            <element signature="method#update#0;class#Task2#0" expanded="true" />
-            <element signature="method#equals#0;class#Task2#0" expanded="true" />
-            <element signature="method#hashCode#0;class#Task2#0" expanded="true" />
-            <element signature="method#complete#0;class#TaskCallback#0;class#Task#0" expanded="true" />
           </folding>
         </state>
       </provider>

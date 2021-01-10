@@ -1,7 +1,5 @@
 package org.humblemachine.executor;
 
-import org.humblemachine.executor.Callback;
-import org.humblemachine.executor.Node;
 import org.humblemachine.models.ReqResult;
 
 public class ExecutionHelper implements Runnable {
@@ -21,7 +19,11 @@ public class ExecutionHelper implements Runnable {
 
     @Override
     public void run() {
-        this.result = node.work(this.input);
+        try {
+            this.result = node.work(this.input);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         callback.complete(this.result);
     }
 
